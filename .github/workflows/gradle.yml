@@ -44,8 +44,7 @@ jobs:
       with:
         image: prathamesh13/simple-java-app-sam
         tags: v1, latest
-        registry: hub.docker.com
-        dockerfile: Dockerfile.ci
+        registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
     
